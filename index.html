@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Shop</title>
+    <style>
+        span{
+            background-color: aliceblue;
+            color: black;
+        }
+        .menu{
+            align-items: center;
+            text-align: center;
+        }
+        .title-name{
+            text-align: center;
+            font-size: 28px;
+            color: aliceblue;
+        }
+        .poster{
+            width: 100vw;
+            height: 45vh;
+            border: 3px solid aliceblue;
+            border-radius: 150px;
+
+           
+
+        }
+        .poster1{
+            width: 100%;
+            height: 100%;
+            border-radius: 150px;
+        }
+        h4{
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            text-decoration: dashed;
+            
+        }
+        .menu-items{
+            width: 200px;
+            height: 250px;
+            margin: 15px;
+            display: inline-block;
+            border-radius: 45px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+           transition: transform 0.35s ease;
+           box-shadow: 2px 0 5px 5px rgba(0, 0, 0, 0.4);
+            
+           
+
+        }
+        .menu-items:hover{
+            transform: translateY(-15px);
+        }
+        .tacos-menu{
+            width: 150px;
+            height: 150px;
+            border-radius: 35px ;
+            margin-top: 20px;
+            
+        }
+        .menu-items button{
+            border: none;
+            color:aliceblue;
+            background-color: black;
+            width: 70px;
+            height: 29px;
+            border-radius: 244px;
+            cursor: pointer;
+        }
+        .menu p{
+            margin: 3px;
+        }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(56, 2, 173);
+            margin-top: 0;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .form
+        {
+            background-color: white;
+            width: 65vw;
+            height: 60vh;
+            margin-bottom: 40px;
+            align-content: center;
+            place-items: center;
+            border-radius: 35px;
+            box-shadow: 0 0px 10px 3px rgba(255, 255, 255, 0.5);
+        }
+        .main2 .form input{
+            display: block;
+            width: 400px;
+            height: 37px;
+            margin-bottom: 20px;
+            border: 1px  solid rgb(93,93,93);
+            border-radius: 22px;
+            padding-left: 13px;
+            }
+            .main2 .form label{
+                font-size: 18px;
+                margin-left: 10px;
+                margin-bottom: 8px;
+                
+            }
+            .main2 .form button{
+                text-align: center;
+                border: none;
+                color: white;
+                background-color:rgb(56, 2, 173) ;
+                padding: 10px;
+                width: 150px;
+                font-weight: 600;
+                border-radius: 30px;
+                box-shadow: 0 1px 7px 0px rgba(0, 0, 0, 0.4);
+            }
+        .area{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .support{
+            width: 50vw;
+            height: 15vh;
+            background-color: white;
+            border-radius: 35px;
+            box-shadow: 0 0px 10px 3px rgba(255, 255, 255, 0.5);
+            vertical-align: middle;
+            
+            place-content: center;
+            place-items: center;
+            
+
+        }
+        .support a{
+            text-decoration: none;
+            width: 80px;
+            height: 20px;
+            background-color: rgb(56, 2, 173) ;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            display:inline-block;
+            text-align: center;
+            font-weight: 600;
+            vertical-align: middle;
+            
+        }
+        @media(max-width:600px){
+            .body{
+               margin: 0; 
+            }
+            .main{
+                display: flex;
+                flex-direction: column;
+            }
+            .poster{
+                width: 100vw;
+
+            }
+            .menu-items{
+                width: 40vw;
+                height: auto;
+            }
+            .tacos-menu{
+                object-fit: cover;
+                overflow: hidden;
+                 width: 120px;
+            height: 120px;
+
+            }
+            .form{
+                width: 78vw;
+            height: 60vh;
+            
+
+            }
+            form{
+                object-fit:cover ;
+            }
+           .area .form form input{
+        width: 70vw;
+            }
+
+        }
+
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+    <div class="main" style="background-color: orange; margin: 0; margin-top: 0; ">
+    <div class="title-name">
+        <h1 style="margin: 0; margin-bottom: 30px;">SK's <span>TACOS</span></h1>
+    </div>
+    <div class="poster">
+        <img class="poster1" src="./0b021524-19ba-499f-91e5-ee7f9bc2f4c8.jpg" alt="">
+    </div>
+    <h4><span>Our special's</span></h4>
+    <div class="menu">
+        <div class="menu-items">
+            <img class="tacos-menu" src="./chad-montano-lP5MCM6nZ5A-unsplash.jpg" alt="">
+            <p>$1.99</p>
+            <p>Spicy Taco</p>
+            <button>Buy</button>
+        </div>
+        <div class="menu-items">
+            <img class="tacos-menu" src="./christine-siracusa-vzX2rgUbQXM-unsplash.jpg" alt="">
+            <p>$1.99</p>
+            <p>Sweet & Sour Taco</p>
+            <button>Buy</button>
+        </div>
+        <div class="menu-items">
+            <img class="tacos-menu" src="./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg" alt="">
+            <p>$1.99</p>
+            <p>Vegan Taco</p>
+            <button>Buy</button>
+        </div>
+        <div class="menu-items">
+            <img class="tacos-menu" src="./the-nix-company-61wG5-SAF_Y-unsplash.jpg" alt="">
+            <p>$1.99</p>
+            <p>Crispy Taco</p>
+            <button>Buy</button>
+        </div>
+    </div>
+    </div>
+    <div class="main2">
+        <h1 style="margin-top: 3; color: white; text-align: center;  "><span style="box-shadow: 0 0px 10px 3px rgba(255, 255, 255, 0.5);">Contact Us</span> </h1>
+        <div class="area" style="vertical-align: middle;">
+            <div class="form">
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="name" title="Enter Name" placeholder="Name">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" name="email" id="email" title="Enter E-Mail" placeholder="abc@gmail.com">
+                    <label for="tel">Phone:</label>
+                    <input type="tel" placeholder="+91 xxxxxxxxxx">
+                    <button type="submit">Submit</button>
+
+                </form>
+    
+
+
+            </div>
+            
+        </div>
+        <div class="area">
+        <div class="support">
+            <div class="support1">
+            <a href="mailto:sivakarthikeyanm117@gmail.com">E-mail</a>
+            <a href="https://www.linkedin.com/in/sivakarthikeyanm117">linkedin</a>
+        </div></div></div>
+        
+    </div>
+</body>
+</html>
