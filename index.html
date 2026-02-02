@@ -10,6 +10,10 @@
             background-color: aliceblue;
             color: black;
         }
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .menu{
             align-items: center;
             text-align: center;
@@ -161,14 +165,23 @@
         @media(max-width:600px){
             .body{
                margin: 0; 
+               padding:0;
+               width: 100vw;
             }
             .main{
                 display: flex;
                 flex-direction: column;
+                width: 100vw;
+                object-fit: contain;
             }
             .poster{
-                width: 100vw;
+                width: 95vw;
+                place-content: center;
+                align-items: center;
 
+            }
+            .poster1{
+                object-fit: cover;
             }
             .menu-items{
                 width: 40vw;
@@ -192,6 +205,26 @@
             }
            .area .form form input{
         width: 60vw;
+            }
+            .area .support{
+                width: 240px;
+            }
+           .area .support .support1 a{
+                font-size: 13px;
+                text-align: center;
+                font-family: Arial;
+                vertical-align: middle;
+                place-content: center;
+
+            }
+            .main1 , .main2{
+                width: 100vw;
+                object-fit: fill;
+                overflow: hidden;
+            }
+            body{
+                width: 100vw;
+                object-fit: cover;
             }
 
         }
@@ -258,7 +291,7 @@
         <div class="support">
             <div class="support1">
             <a href="mailto:sivakarthikeyanm117@gmail.com">E-mail</a>
-            <a href="https://www.linkedin.com/in/sivakarthikeyanm117">linkedin</a>
+            <a href="https://www.linkedin.com/in/sivakarthikeyanm117">Linkedin</a>
         </div></div></div>
         
     </div>
